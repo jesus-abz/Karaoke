@@ -9,6 +9,6 @@
     <Grid>
         <Button x:Name="btnReproducir" Content="Reproducir" HorizontalAlignment="Left" Margin="363,198,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
         <ProgressBar x:Name="prgBarraProgreso" HorizontalAlignment="Left" Height="34" Margin="10,10,0,0" VerticalAlignment="Top" Width="774" Visibility="Hidden"/>
-        <TextBlock x:Name="txtLetra" HorizontalAlignment="Left" Margin="224,134,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="161" Width="348" Visibility="Hidden"/>
+        <TextBlock x:Name="txtLetra" HorizontalAlignment="Left" Margin="10,167,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="80" Width="774" Visibility="Hidden" FontFamily="Arial Rounded MT Bold" FontSize="36" TextAlignment="Center"/>
     </Grid>
 </Window>
