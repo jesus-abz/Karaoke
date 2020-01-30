@@ -66,7 +66,7 @@ namespace Karaoke
         {
             prgBarraProgreso.Value = reader.CurrentTime.TotalSeconds;
 
-            if(prgBarraProgreso.Value > 19 && prgBarraProgreso.Value < 22)
+            if (prgBarraProgreso.Value > 19 && prgBarraProgreso.Value < 22)
             {
                 txtLetra.Text = "I know a bird";
             }
@@ -84,7 +84,7 @@ namespace Karaoke
             }
             else if (prgBarraProgreso.Value > 36 && prgBarraProgreso.Value < 38)
             {
-                txtLetra.Text = "there nothing to say";
+                txtLetra.Text = "there's nothing to say";
             }
             else if (prgBarraProgreso.Value > 38 && prgBarraProgreso.Value < 47)
             {
@@ -100,7 +100,7 @@ namespace Karaoke
             }
             else if (prgBarraProgreso.Value > (60 * 1) + 1 && prgBarraProgreso.Value < (60 * 1) + 3)
             {
-                txtLetra.Text = "there nothing to say";
+                txtLetra.Text = "there's nothing to say";
             }
             else if (prgBarraProgreso.Value > (60 * 1) + 3 && prgBarraProgreso.Value < (60 * 1) + 5)
             {
@@ -150,7 +150,86 @@ namespace Karaoke
             {
                 txtLetra.Text = "just fly";
             }
-
+            else if (prgBarraProgreso.Value > (60 * 1) + 32 && prgBarraProgreso.Value < (60 * 1) + 36)
+            {
+                txtLetra.Text = "and, even if you fall down and die";
+            }
+            else if (prgBarraProgreso.Value > (60 * 1) + 36 && prgBarraProgreso.Value < (60 * 1) + 37)
+            {
+                txtLetra.Text = "you'll make a big splash";
+            }
+            else if (prgBarraProgreso.Value > (60 * 1) + 38 && prgBarraProgreso.Value < (60 * 1) + 40)
+            {
+                txtLetra.Text = "or maybe you'll crash";
+            }
+            else if (prgBarraProgreso.Value > (60 * 1) + 40 && prgBarraProgreso.Value < (60 * 1) + 41)
+            {
+                txtLetra.Text = "into the sun";
+            }
+            else if (prgBarraProgreso.Value > (60 * 1) + 42 && prgBarraProgreso.Value < (60 * 1) + 46)
+            {
+                txtLetra.Text = "and turn into ash";
+            }
+            else if (prgBarraProgreso.Value > (60 * 1) + 46 && prgBarraProgreso.Value < (60 * 1) + 47)
+            {
+                txtLetra.Text = "there's nothing to say";
+            }
+            else if (prgBarraProgreso.Value > (60 * 1) + 47 && prgBarraProgreso.Value < (60 * 1) + 49)
+            {
+                txtLetra.Text = "she's flying away";
+            }
+            else if (prgBarraProgreso.Value > (60 * 1) + 50 && prgBarraProgreso.Value < (60 * 1) + 53)
+            {
+                txtLetra.Text = "into the rising sun";
+            }
+            else if (prgBarraProgreso.Value > (60 * 1) + 53 && prgBarraProgreso.Value < (60 * 1) + 55)
+            {
+                txtLetra.Text = "flying up there";
+            }
+            else if (prgBarraProgreso.Value > (60 * 1) + 55 && prgBarraProgreso.Value < (60 * 1) + 57)
+            {
+                txtLetra.Text = "does she even care?";
+            }
+            else if (prgBarraProgreso.Value > (60 * 1) + 57 && prgBarraProgreso.Value < (60 * 2) + 1)
+            {
+                txtLetra.Text = "out of sight out of mind";
+            }
+            else if (prgBarraProgreso.Value > (60 * 2) + 1 && prgBarraProgreso.Value < (60 * 2) + 3)
+            {
+                txtLetra.Text = "isn't it hard";
+            }
+            else if (prgBarraProgreso.Value > (60 * 2) + 3 && prgBarraProgreso.Value < (60 * 2) + 5)
+            {
+                txtLetra.Text = "flying so far";
+            }
+            else if (prgBarraProgreso.Value > (60 * 2) + 5 && prgBarraProgreso.Value < (60 * 2) + 8)
+            {
+                txtLetra.Text = "don't forget that you're loved";
+            }
+            else if (prgBarraProgreso.Value > (60 * 2) + 9 && prgBarraProgreso.Value < (60 * 2) + 10)
+            {
+                txtLetra.Text = "a beautiful bird";
+            }
+            else if (prgBarraProgreso.Value > (60 * 2) + 11 && prgBarraProgreso.Value < (60 * 2) + 12)
+            {
+                txtLetra.Text = "unique and absurd";
+            }
+            else if (prgBarraProgreso.Value > (60 * 2) + 13 && prgBarraProgreso.Value < (60 * 2) + 16)
+            {
+                txtLetra.Text = "FIVE";
+            }
+            else if (prgBarraProgreso.Value > (60 * 2) + 16 && prgBarraProgreso.Value < (60 * 2) + 20)
+            {
+                txtLetra.Text = " ";
+            }
+            else if (prgBarraProgreso.Value > (60 * 2) + 20 && prgBarraProgreso.Value < (60 * 2) + 42)
+            {
+                txtLetra.Text = "kuuhuu kuuhuu, Yeah, Yeah (x3)";
+            }
+            else if (prgBarraProgreso.Value > (60 * 2) + 43 && prgBarraProgreso.Value < (60 * 2) + 54)
+            {
+                txtLetra.Text = "kuuhuu kuuhuu, Yeah";
+            }
 
         }
         private void Output_PlaybackStopped(object sender, StoppedEventArgs e)
